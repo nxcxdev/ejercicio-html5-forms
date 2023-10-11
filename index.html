@@ -6,5 +6,64 @@
         <link rel="stylesheet" href="/style/style.css" />
         <title>Ejercicio HTML 5 | Forms</title>
     </head>
-    <body></body>
+    <body>
+        <div id="form__container">
+            <form>
+                <label for="name__input">Name</label>
+                <input
+                    type="text"
+                    placeholder="Enter your name"
+                    id="name__input"
+                />
+                <label for="name__input">Email</label>
+                <input
+                    type="text"
+                    placeholder="Enter your email"
+                    id="email__input"
+                />
+                <label for="age__input">Age</label>
+                <input
+                    type="Age"
+                    placeholder="Enter your age"
+                    id="age__input"
+                />
+                <label>Which option best describes you?</label>
+                <select>
+                    <option>Student</option>
+                    <option>Employed</option>
+                    <option>Unemployed</option>
+                </select>
+                <label>Would you recommend this site to your friends?</label>
+                <div>
+                    <input type="radio" id="yes" name="recommendation" />
+                    <label>Yes</label>
+                </div>
+                <div>
+                    <input type="radio" id="no" name="recommendation" />
+                    <label>No</label>
+                </div>
+                <div>
+                    <input type="radio" id="maybe" name="recommendation" />
+                    <label>Maybe</label>
+                </div>
+                <label
+                    >Languages and Frameworks known (Check all that
+                    apply)</label
+                >
+                <div><input type="checkbox" /> <label>C</label></div>
+                <div><input type="checkbox" /> <label>C++</label></div>
+                <div><input type="checkbox" /> <label>C#</label></div>
+                <div><input type="checkbox" /> <label>Java</label></div>
+                <div><input type="checkbox" /> <label>Python</label></div>
+                <div><input type="checkbox" /> <label>Javascript</label></div>
+                <div><input type="checkbox" /> <label>React</label></div>
+                <div><input type="checkbox" /> <label>Angular</label></div>
+                <div><input type="checkbox" /> <label>Django</label></div>
+                <div><input type="checkbox" /> <label>Spring</label></div>
+                <label>Any comments or suggestions</label>
+                <textarea id="text__input" rows="4"></textarea>
+            </form>
+            <button>Submit</button>
+        </div>
+    </body>
 </html>
